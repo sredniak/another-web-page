@@ -2,3 +2,70 @@
 
 //font-family: 'Merriweather', serif;
 //font-family: 'Work Sans', sans-serif;
+
+body{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation .logo a{
+    color: gold;
+    font-size: 17px;
+}
+
+.navigation ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+} 
+
+.navigation li {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.splash{
+    background-image: url(https://i.postimg.cc/fbyYvd4s/vintage.jpg);
+    color: white;
+    min-height: 600px;
+    display: flex;
+    margin-top: -100px;
+}
+.splash-inner{
+    margin: auto;
+    text-align: center;
+    
+}
+.splash-inner h1{
+font-size: 25px;
+}
+
+.splash-inner h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+.splash button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    background-color: gold;
+    border: none;
+    margin-top: -20px;
+}

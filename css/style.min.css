@@ -1,3 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Work+Sans:wght@100;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUubWluLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBUSxvSUFBQSIsImZpbGUiOiJzdHlsZS5taW4uY3NzIn0= */
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation .logo a {
+  color: gold;
+  font-size: 17px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.navigation li {
+  padding: 15px;
+  text-decoration: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.splash {
+  background-image: url(https://i.postimg.cc/fbyYvd4s/vintage.jpg);
+  color: white;
+  min-height: 600px;
+  display: flex;
+  margin-top: -100px;
+}
+
+.splash-inner {
+  margin: auto;
+  text-align: center;
+}
+
+.splash-inner h1 {
+  font-size: 25px;
+}
+
+.splash-inner h2 {
+  font-size: 70px;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+
+.splash button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-transform: uppercase;
+  background-color: gold;
+  border: none;
+  margin-top: -20px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUubWluLmNzcyIsInN0eWxlLm1pbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQVEsb0lBQUE7QUFBNkg7RUFBSyxTQUFBO0VBQVMsb0NBQUE7QUNJbko7O0FESnVMO0VBQVksYUFBQTtFQUFhLDZCQUFBO0VBQTZCLG1CQUFBO0FDVTdPOztBRFZnUTtFQUFvQixXQUFBO0VBQVcsZUFBQTtBQ2UvUjs7QURmOFM7RUFBZSxxQkFBQTtFQUFxQixxQkFBQTtFQUFxQixhQUFBO0FDcUJ2Vzs7QURyQm9YO0VBQWUsYUFBQTtFQUFhLHFCQUFBO0FDMEJoWjs7QUQxQnFhO0VBQWMscUJBQUE7RUFBcUIsWUFBQTtFQUFZLHlCQUFBO0VBQXlCLGVBQUE7QUNpQzdlOztBRGpDNGY7RUFBUSxnRUFBQTtFQUFnRSxZQUFBO0VBQVksaUJBQUE7RUFBaUIsYUFBQTtFQUFhLGtCQUFBO0FDeUM5bUI7O0FEekNnb0I7RUFBYyxZQUFBO0VBQVksa0JBQUE7QUM4QzFwQjs7QUQ5QzRxQjtFQUFpQixlQUFBO0FDa0Q3ckI7O0FEbEQ0c0I7RUFBaUIsZUFBQTtFQUFlLHlCQUFBO0VBQXlCLGlCQUFBO0FDd0Ryd0I7O0FEeERzeEI7RUFBZSxZQUFBO0VBQVksWUFBQTtFQUFZLFlBQUE7RUFBWSx5QkFBQTtFQUF5QixzQkFBQTtFQUFzQixZQUFBO0VBQVksaUJBQUE7QUNrRXA0QiIsImZpbGUiOiJzdHlsZS5taW4uY3NzIn0= */
