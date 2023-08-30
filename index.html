@@ -3,51 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="vendor/bootstrap-grid.css"> 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <title>Golden</title>
 </head>
 <body>
-    <nav class="navigation">
-        <div class="logo">
-            <a href="">GOLDEN</a>
-        </div>
-        <div class="">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-
-    <header class="splash">
-        <div class="splash-inner"> 
-            <h1>Welcome to our studio!</h1>
-            <h2>It's nice to meet you</h2>
-            <button>Tell me more</button>
-        </div>
-    </header>
-
-    <section class="services">
+    <div class="wrapper background-img">
         <div class="container">
-            <h2 class="our-services-title">SERVICES</h2>
-            <p>Proin iacalius purus consequat sem cure.</p>
+            <nav class="navbar">
+                <ul>
+                    <li class="navbar-logo">Golden</li>
+                    <li class="navbar-links">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="navbar-links">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="navbar-links">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="navbar-links">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="navbar-links">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header">
+                <header>
+                    <h3>Welcome To Our Studio!</h3>
+                    <span class="header-title">It's nice to meet you</span>
+                    <a href="#portfolio"><span class="btn-text">TELL ME MORE</span></a>
+                </header>
+            </div>
+        </div>
+    </div>
+    <section class="services">
+        <h2>SERVICES</h2>
+        <div class="container">
+            <p class="service-desc">Proin iaculis purus consequat sem cure.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="icon-bgc">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                    <h4>E-Commerce</h4>
+                    <p class="service-element-desc">Lorem ipsum dolor sit amet, adipiscing elit. Vivamus vitae erat nec orci semper efficitur sed sed mi.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-bgc">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                    <h4>Responsive Web</h4>
+                    <p class="service-element-desc">Lorem ipsum dolor sit amet, adipiscing elit. Vivamus vitae erat nec orci semper efficitur sed sed mi.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-bgc">  
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div> 
+                    <h4>Web Security</h4>
+                    <p class="service-element-desc">Lorem ipsum dolor sit amet, adipiscing elit. Vivamus vitae erat nec orci semper efficitur sed sed mi.</p>
+                </div>
+            </div>
         </div>
     </section>
-    
+
+    <section class="portfolio" id="portfolio">
+        <h2>OUR PORTFOLIO</h2>
+        <div class="container">
+            <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://i.postimg.cc/6pDhv1MQ/pexels-leeloo-thefirst-7598024.jpg" alt="">
+                    <h4>Ebony & Ivory</h4>
+                    <p class="service-element-desc">Branding</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.postimg.cc/BZYHFV6G/pexels-jose-antonio-gallego-va-zquez-2167395.jpg" alt="">
+                    <h4>Smart Stationary</h4>
+                    <p class="service-element-desc">Print Design</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.postimg.cc/X7BGCNmw/pexels-emily-768126.jpg" alt="">
+                    <h4>Clever Poster</h4>
+                    <p class="service-element-desc">Print Design</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://i.postimg.cc/T2D5yYZn/pexels-ruvim-3767669.jpg" alt="">
+                    <h4>Vinyl Record</h4>
+                    <p class="service-element-desc">Product Mock-Up</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.postimg.cc/6pjpjDk9/pexels-wendy-wei-2020267.jpg" alt="">
+                    <h4>Treehouse Template</h4>
+                    <p class="service-element-desc">Web Design</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.postimg.cc/fbyYvd4s/vintage.jpg" alt="">
+                    <h4>Burned Logo</h4>
+                    <p class="service-element-desc">Branding</p>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <h5>© Copyright 2014 FreebiesXpress.com</h5>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <a href="#"><div class="social-media-icon"><i class="fa-brands fa-twitter"></i></div></a>
+                    <a href="#"><div class="social-media-icon"><i class="fab fa-facebook-f"></i></div></a>
+                    <a href="#"><div class="social-media-icon"><i class="fa-brands fa-pinterest-p"></i></div></a>
+                    <a href="#"><div class="social-media-icon"><i class="fa-brands fa-google-plus-g"></i></div></a>  
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
